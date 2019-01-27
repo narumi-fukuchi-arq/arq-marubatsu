@@ -1,0 +1,25 @@
+
+
+body {
+  background:url("haikei3.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:1085px;
+  min-height:100px;
+}
+
+table.board  {
+    border: solid 1px #BBBBBB;
+    border-collapse: collapse;
+    margin: 2px;
+}
+td {
+    border: solid 1px #000000;
+    text-align: center;
+}
+
+.cell {
+    width:  130px; 
+    height: 130px;
+    font-size: 60px;
+}
