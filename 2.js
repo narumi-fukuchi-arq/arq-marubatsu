@@ -1,16 +1,16 @@
-var count = 0;
+﻿var count = 0;
 
 function clickA(a) {
     if (a.innerText != "") {
-        alert("?????????");
+        alert("そこは選べないよ！");
         return;
     }
 
     var mark;
     if (count % 2 === 0) {
-        mark = "??"
+        mark = "🐕"
     } else {
-        mark = "??"
+        mark = "🐩"
     }
 
     a.innerText = mark;
@@ -53,9 +53,9 @@ function judge() {
     }
     var str;
     if (winer) {
-        str = winer + "????";
+        str = winer + "の勝ち！";
     } else if (count == 9) {
-        str = "?????";
+        str = "?引き分け！";
     } else {
         str = null;
     }
