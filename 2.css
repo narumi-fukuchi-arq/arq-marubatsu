@@ -1,10 +1,14 @@
 
 
 body {
+<<<<<<< HEAD
   background:url("haikei3.jpg");
   background-repeat:no-repeat;
   background-position:center;
   background-size:1085px;
+=======
+  background:url("haikei2.png");
+>>>>>>> origin/master
   min-height:100px;
 }
 

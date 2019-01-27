@@ -8,19 +8,32 @@ function clickA(a) {
 
     var mark;
     if (count % 2 === 0) {
+<<<<<<< HEAD
         mark = "🐕"
     } else {
         mark = "🐩"
+=======
+        mark = "〇"
+    } else {
+        mark = "✕"
+>>>>>>> origin/master
     }
 
     a.innerText = mark;
     count++;
 
+<<<<<<< HEAD
     var str = judge();
     if (str) {
         alert(str);
     }
     //judgeの基準に達したらアラートを表示する
+=======
+    var ret = judge();
+    if (ret) {
+        alert(ret);
+    }
+>>>>>>> origin/master
 }
 
 function judge() {
