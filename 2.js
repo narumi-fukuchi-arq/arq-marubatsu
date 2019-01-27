@@ -2,38 +2,24 @@ var count = 0;
 
 function clickA(a) {
     if (a.innerText != "") {
-        alert("そこは選べないよ！");
+        alert("?????????");
         return;
     }
 
     var mark;
     if (count % 2 === 0) {
-<<<<<<< HEAD
-        mark = "🐕"
+        mark = "??"
     } else {
-        mark = "🐩"
-=======
-        mark = "〇"
-    } else {
-        mark = "✕"
->>>>>>> origin/master
+        mark = "??"
     }
 
     a.innerText = mark;
     count++;
 
-<<<<<<< HEAD
-    var str = judge();
-    if (str) {
-        alert(str);
-    }
-    //judgeの基準に達したらアラートを表示する
-=======
     var ret = judge();
     if (ret) {
         alert(ret);
     }
->>>>>>> origin/master
 }
 
 function judge() {
@@ -67,9 +53,9 @@ function judge() {
     }
     var str;
     if (winer) {
-        str = winer + "の勝ち！";
+        str = winer + "????";
     } else if (count == 9) {
-        str = "引分け！";
+        str = "?????";
     } else {
         str = null;
     }
