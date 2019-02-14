@@ -55,7 +55,7 @@ function judge() {
     if (winer) {
         str = winer + "の勝ち！";
     } else if (count == 9) {
-        str = "?引き分け！";
+        str = "引き分け！";
     } else {
         str = null;
     }
